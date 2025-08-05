@@ -1,6 +1,6 @@
-# React + Vite Starter Project
+# React + Redux + Vite Practice Project
 
-This is a minimal starter template built with **React** and **Vite**.
+This project is based on a minimal React + Vite starter and is used for practicing **React** and **Redux** concepts.
 
 ## Getting Started
 
