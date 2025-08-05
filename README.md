@@ -1,14 +1,14 @@
 # React + Redux + Vite Practice Project
 
-This project is based on a minimal React + Vite starter and is used for practicing **React** and **Redux** concepts.
+This project is used for practicing **React** and **Redux** concepts.
 
 ## Getting Started
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/alinanigman/react-vite-start-project.git
-cd react-vite-start-project
+git clone https://github.com/alinanigman/rs-react-redux-lessons.git
+cd rs-react-redux-lessons
 ```
 
 2. Install dependencies:
@@ -27,7 +27,3 @@ npm run dev
 
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
-
----
-
-This project serves as a base template for building new React apps with Vite.
