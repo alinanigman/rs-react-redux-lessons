@@ -9,7 +9,22 @@ export const initialState = {
 export const reducer = (state = initialState, action) => {
   const { type, payload } = action;
   switch (type) {
-    // cases
+    case "INCREASE_AGE":
+      return {
+        ...state,
+        user: {
+          ...state.user,
+          age: state.user.age + payload,
+        },
+      };
+    case "RESET_AGE":
+      return {
+        ...state,
+        user: {
+          ...state.user,
+          age: initialState.user.age,
+        },
+      };
     default:
       return state;
   }
