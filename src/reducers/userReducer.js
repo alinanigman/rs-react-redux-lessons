@@ -6,6 +6,8 @@ export const initialUserState = {
 export const userReducer = (state = initialUserState, action) => {
   const { type, payload } = action;
   switch (type) {
+    case "CHANGE_USER":
+      return payload;
     case "INCREASE_AGE":
       return {
         ...state,
