@@ -5,4 +5,9 @@ const reducer = combineReducers({
   user: userReducer,
   products: productsReducer,
 });
-export const store = createStore(reducer, applyMiddleware(thunk));
+
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+export const store = createStore(
+  reducer,
+  composeEnhancers(applyMiddleware(thunk)),
+);
